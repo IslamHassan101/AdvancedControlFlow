@@ -13,5 +13,16 @@ fun main() {
         println(sum)
     }
 
+    // Repeat Loops
+    sum  =1
+    var lastSum = 0
+    repeat(10){
+        val temp =sum
+        sum += lastSum
+        lastSum =temp
+        println(lastSum)
+    }
+
+
 
 }
