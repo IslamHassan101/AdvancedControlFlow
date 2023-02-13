@@ -4,7 +4,10 @@ fun main() {
     println(closedRange)
     println(halfOpenRange)
 
-
+    repeat(10){
+        print("*")
+    }
+    println()
     //For Loops
     val count =10
     var sum =0
@@ -12,7 +15,10 @@ fun main() {
         sum +=i
         println(sum)
     }
-
+    repeat(10){
+        print("*")
+    }
+    println()
     // Repeat Loops
     sum  =1
     var lastSum = 0
@@ -22,9 +28,22 @@ fun main() {
         lastSum =temp
         println(lastSum)
     }
+    repeat(10){
+        print("*")
+    }
+    println()
     //Steps in loops
     sum =0
     for(i in 1..count step 2){
+        sum +=i
+        println(sum)
+    }
+    repeat(10){
+        print("*")
+    }
+    println()
+    sum = 0
+    for (i in count downTo 1 step 2){
         sum +=i
         println(sum)
     }
